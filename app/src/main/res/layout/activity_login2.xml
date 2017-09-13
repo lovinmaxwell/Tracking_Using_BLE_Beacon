@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_light"
+    tools:context="com.samebits.beacon.locator.ui.activity.Login">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/login_password"
+            android:textColor="@color/black"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:layout_below="@+id/phone"
+            android:layout_alignParentStart="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="0.25"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+
+
+
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/login_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/phone"
+            android:layout_alignParentStart="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="0.146"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+
+        <Button
+            android:text="login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:elevation="24sp"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="221dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="0dp"
+            android:layout_height="30sp"
+            android:text="Dont you have account yet? Register Here"
+            android:layout_marginRight="8sp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="285dp"
+            android:layout_marginStart="8sp"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:layout_marginEnd="8sp"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+
+</android.support.constraint.ConstraintLayout>
